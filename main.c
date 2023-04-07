@@ -17,10 +17,13 @@ void ledBlink(int16_t high_time, int16_t low_time)
 	_delay_ms(low_time);
 }
 
+<<<<<<< HEAD
 void ledInit()
 {
 	DDRB |= 1 << 5;
 }
+=======
+>>>>>>> branch1
 int16_t main()
 {
 	int16_t high_time = 300;
